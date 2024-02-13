@@ -1,0 +1,15 @@
+# Python cache
+*/__pycache__/*
+*.pyc
+
+# Alembic configuration
+*.ini
+
+# FastAPI environments
+*.env
+
+# Pip environments
+Pipfile.lock
+
+# Integrated Development Environment
+.idea

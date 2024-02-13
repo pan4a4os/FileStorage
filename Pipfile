@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+alembic = "==1.13.1"          # https://pypi.org/project/alembic/
+fastapi = "==0.109.2"         # https://fastapi.tiangolo.com
+psycopg2-binary = "==2.9.9"   # https://pypi.org/project/psycopg2-binary/
+python-dotenv = "==1.0.1"     # https://pypi.org/project/python-dotenv/
+python-multipart = "==0.0.9"  # https://pypi.org/project/python-multipart/
+sqlalchemy = "==2.0.26"       # https://www.sqlalchemy.org/
+uvicorn = "==0.23.1"          # https://pypi.org/project/uvicorn/
+
+[dev-packages]
+black = "==22.12.0"     # https://black.readthedocs.io/en/stable/usage_and_configuration/the_basics.html
+flake8 = "==6.0.0"      # https://flake8.pycqa.org/en/latest/user/configuration.html
+isort = "==5.10.1"      # https://pycqa.github.io/isort/
+pre-commit = "==3.4.0"  # https://pre-commit.com/
+
+[requires]
+python_version = "3.10"
+python_full_version = "3.10.12"

@@ -1,0 +1,26 @@
+[flake8]
+
+# E203 -> Whitespace before "Symbol here"
+# E731 -> Not assign a lambda expression, better use a def
+
+extend-ignore = E203, E731
+max-line-length = 120
+exclude =
+    # Git files
+    .git,
+    .gitignore,
+    .gitattributes,
+
+    # Python caches
+    *.pyc,
+    __pycache__,
+
+    # Initialization files
+    __init__.py
+
+    # Loggers
+    *.log,
+
+    # Pip files
+    Pipfile,
+    Pipfile.lock
